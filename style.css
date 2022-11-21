@@ -37,6 +37,7 @@ a:hover {
 }
 
 .navbar a {
+    float: left;
     display: block;
     color: #0d623a;
     text-align: center;
