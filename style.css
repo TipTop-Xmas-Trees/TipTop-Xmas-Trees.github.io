@@ -8,9 +8,9 @@ a:hover {
 }
 
 .header {
-    padding: 32px;
+    padding: 0;
     text-align: center;
-    background: black;
+    background: white;
 }
 
 .header h1 {
@@ -27,19 +27,18 @@ a:hover {
 
 .header a:hover {
     background-color: #ff3c27;
-    color: #000;
+    color: #fff;
 }
 
 .navbar {
     overflow: hidden;
     text-align: center;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar a {
-    float: left;
     display: block;
-    color: #ffdd39;
+    color: #0d623a;
     text-align: center;
     font-weight: bold;
     padding: 14px 20px;
@@ -76,4 +75,14 @@ td {
 
 .footer address {
     font-style: normal;
+}
+
+.imgbox {
+    display: grid;
+    height: 90%;
+}
+.center-fit {
+    max-width: 90%;
+    max-height: 90vh;
+    margin: auto;
 }
