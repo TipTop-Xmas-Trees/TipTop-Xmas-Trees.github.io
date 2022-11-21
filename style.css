@@ -1,10 +1,10 @@
 a {
-    color: #00f;
+    color: #08623a;
 }
 
 a:hover {
-    background-color: #00f;
-    color: #fff;
+    background-color: #ffdd39;
+    color: #000;
 }
 
 .header {
@@ -13,12 +13,12 @@ a:hover {
     background: white;
 }
 
-.header h1 {
-    color: #ff3c27;
+h1 {
+    color: #ef2920;
 }
 
-.header h2 {
-    color: #159d5d;
+h2 {
+    color: #08623a;
 }
 
 .header a {
@@ -26,7 +26,7 @@ a:hover {
 }
 
 .header a:hover {
-    background-color: #ff3c27;
+    background-color: #ef2920;
     color: #fff;
 }
 
