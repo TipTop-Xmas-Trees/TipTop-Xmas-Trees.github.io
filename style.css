@@ -54,6 +54,14 @@ a:hover {
     padding: 16px;
 }
 
+th {
+    text-align: right;
+}
+
+td {
+    text-align: left;
+}
+
 .underline {
     text-decoration: underline;
 }
