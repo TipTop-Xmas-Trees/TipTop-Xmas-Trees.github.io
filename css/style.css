@@ -30,24 +30,56 @@ h2 {
     color: #fff;
 }
 
-.navbar {
-    overflow: hidden;
-    text-align: center;
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
     background-color: #fff;
+    overflow: hidden;
 }
 
-.navbar a {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
-    display: block;
     color: #08623a;
     text-align: center;
-    font-weight: bold;
-    padding: 14px 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.navbar a:hover {
-    color: black;
+/* Change the color of links on hover */
+.topnav a:hover {
     background-color: #ffdd39;
+    color: black;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
 }
 
 .padding-16 {
