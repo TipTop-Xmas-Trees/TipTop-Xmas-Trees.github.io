@@ -10,24 +10,16 @@ a:hover {
 .header {
     padding: 0;
     text-align: center;
-    background: white;
 }
 
 h1 {
+    background: white;
     color: #ef2920;
 }
 
 h2 {
+    background: white;
     color: #08623a;
-}
-
-.header a {
-    color: inherit;
-}
-
-.header a:hover {
-    background-color: #ef2920;
-    color: #fff;
 }
 
 /* Add a black background color to the top navigation */
